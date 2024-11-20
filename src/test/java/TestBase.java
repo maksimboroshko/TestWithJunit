@@ -15,4 +15,5 @@ public class TestBase {
     @BeforeEach
     public void preparation() {
         Data.openPage();
+    }
 }
