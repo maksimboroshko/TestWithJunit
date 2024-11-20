@@ -8,7 +8,7 @@ public class TestBase {
         Configuration.baseUrl = "https://betboom.ru/";
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
-        Configuration.holdBrowserOpen = true;
+        Configuration.holdBrowserOpen = false;
         Configuration.timeout = 10000;
     }
 
